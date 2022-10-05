@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(monochrome = true,
         plugin = {"pretty", "html:target/cucumber"},
         features = "src/test/features/",
-        dryRun = false)
+        dryRun = true)
 
 public class testRunner {
 
